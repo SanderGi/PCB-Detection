@@ -1,0 +1,6 @@
+.DS_Store
+venv
+.data
+.env
+__pycache__
+notebooks/yolo11n-*.pt
