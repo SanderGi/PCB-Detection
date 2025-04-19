@@ -3,10 +3,10 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
 [![Licence](https://img.shields.io/github/license/SanderGi/PCB-Detection?style=flat-square)](./LICENSE)
 [![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg?style=flat-square)](https://gist.github.com/taiki-e/ad73eaea17e2e0372efb76ef6b38f17b)
-[![OBB mAP50](https://img.shields.io/badge/OBB_mAP50-93.0%-green?style=flat-square)](#results)
-[![Segmentation mAP50](https://img.shields.io/badge/SEG_mAP50-99.5%-green?style=flat-square)](#results)
-[![Object Detection mAP50](https://img.shields.io/badge/OBJ_DET_mAP50-99.5%-green?style=flat-square)](#results)
-[![Classification F1](https://img.shields.io/badge/CLS_F1-99.8%-green?style=flat-square)](#results)
+[![OBB mAP50](https://img.shields.io/badge/OBB_mAP50-93.0%25-green?style=flat-square)](#results)
+[![Segmentation mAP50](https://img.shields.io/badge/SEG_mAP50-99.5%25-green?style=flat-square)](#results)
+[![Object Detection mAP50](https://img.shields.io/badge/OBJ_DET_mAP50-99.5%25-green?style=flat-square)](#results)
+[![Classification F1](https://img.shields.io/badge/CLS_F1-99.8%25-green?style=flat-square)](#results)
 
 There are [a lot of models](https://universe.roboflow.com/roboflow-100/printed-circuit-board/model/3) for detecting components within a Printed Circuit Board (PCB), but not as many for detecting which pixels (if any) in an image contain the PCB itself. Being able to determine if and where a PCB is in an image is useful for [calculating its size to estimate carbon footprint]((https://github.com/SanderGi/LCA)), as a preprocessing step for detecting components, to limit the amount of image more expensive PCB defect detection models have to process, and more.
 
