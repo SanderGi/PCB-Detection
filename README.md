@@ -17,7 +17,7 @@ TIP: The models were trained with the PCBs making up <80% of the image. If you h
 
 ### Oriented Bounding Box Detection (OBB)
 
-1. Download [`the model weights`](./data/augmented_obb/runs/no_perspective3/weights/best.pt)
+1. Download [`the model weights`](https://huggingface.co/SanderGi/PCB-OBB/resolve/main/best.pt?download=true)
 2. `pip install ultralytics`
 3. Run the model with `yolo task=obb mode=predict model=[path to model weights] source=[path to test image]` from the terminal or with Python:
 
@@ -30,7 +30,7 @@ results = model.predict('[path/to/test/image.jpg]')
 
 ### Segmentation
 
-1. Download [`the model weights`](./data/augmented_seg/runs/no_perspective/weights/best.pt)
+1. Download [`the model weights`](https://huggingface.co/SanderGi/PCB-SEG/resolve/main/best.pt?download=true)
 2. `pip install ultralytics`
 3. Run the model with `yolo task=segment mode=predict model=[path to model weights] source=[path to test image]` from the terminal or with Python:
 
